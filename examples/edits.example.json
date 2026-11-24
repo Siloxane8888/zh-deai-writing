@@ -1,0 +1,47 @@
+{
+  "edits": [
+    {
+      "anchor": "下面按这个顺序走",
+      "scope": "body",
+      "note": "拆掉\"分析分为三步\"这类话题句开头，改成从具体顺序起笔；同时打散三项并列",
+      "new_text": "下面按这个顺序走：先用已有研究把\"当场做完\"和\"过几天还会\"分开，再比较三种求助方式各自留下什么，最后拿一道计数题把从读题到复测的过程走一遍。文献只用来判断哪些说法有依据，案例只用来演示方法怎么落地。一次练习能记下的，是个人卡在哪里、怎么改过来，结论也就只对这一次任务成立。"
+    },
+    {
+      "anchor": "个人练习可保留三样东西",
+      "scope": "body",
+      "note": "原段三句均为 38 字，属连续等长句；改成一长一短",
+      "new_text": "三样东西值得留：第一版、一个能暴露问题的用例、关掉工具后的变式结果。第一版说明从哪里起步，用例说明凭什么改，变式结果说明离开工具还剩多少。如果只留一样，时间又紧，就挑与题目要求最贴的那个边界输入。"
+    }
+  ],
+  "skipped": [
+    {
+      "anchor": "KAZEMITABAAR M, CHOW J",
+      "reason": "protected:hyperlink —— 参考文献 DOI 行是超链接，链接文字不在 p.runs 里，硬改会重复"
+    },
+    {
+      "anchor": "生成式 AI 使用说明",
+      "reason": "mixed_format —— 段首加粗、后半正常，整段合并会抹掉加粗"
+    },
+    {
+      "anchor": "同一道条件判断题",
+      "reason": "protected:fldChar —— 段内含\"表 1\"交叉引用域，改了域会断"
+    }
+  ],
+  "selfcheck": {
+    "para_cv_before": 0.19,
+    "para_cv_after": 0.33,
+    "sent_cv_before": 0.34,
+    "sent_cv_after": 0.47,
+    "equal_length_runs_before": 2,
+    "equal_length_runs_after": 0,
+    "triple_parallelism_before": 11,
+    "triple_parallelism_after": 4,
+    "modal_words_before": 52,
+    "modal_words_after": 21,
+    "unsolved": [
+      "第 3 节仍有三个段落长度集中在 150 字附近，段长 CV 只到 0.31，需要再补一个短段",
+      "摘要段 hedging 未清干净，\"可以\"仍出现 2 次",
+      "个人经历按约束不得新增，只能在现有素材上重排，信息密度偏低"
+    ]
+  }
+}
